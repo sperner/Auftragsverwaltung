@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project default="javadoc">
+  <target name="javadoc">
+    <javadoc destdir="doc" access="public" source="1.4" use="true" notree="false" nonavbar="false" noindex="false" splitindex="true" author="true" version="true" nodeprecatedlist="false" nodeprecated="false" packagenames="auftragsverwaltung.s.artikel,auftragsverwaltung.s.geschaeftspartner,auftragsverwaltung.p.artikel,auftragsverwaltung.c.auftrag,auftragsverwaltung.p.geschaeftspartner,auftragsverwaltung.c.artikel,auftragsverwaltung.c.geschaeftspartner,auftragsverwaltung.s.auftrag,auftragsverwaltung.p,auftragsverwaltung,auftragsverwaltung.ve" sourcepath="src" classpath="." doctitle="Auftragsverwaltung von Jonas &amp; Sven" additionalparam=" -tag super:f:&quot;Reference to Superclass&quot;&#10;-tag sub:f:&quot;Reference to Subclass&quot;&#10;-tag classifier:f:&quot;Classifier&quot;&#10;-tag selector:f:&quot;Selector&quot;&#10;-tag pre:m:&quot;Precondition&quot;&#10;-tag post:m:&quot;Postcondition&quot;"/>
+  </target>
+</project>
